@@ -12,8 +12,7 @@ router.get('/', (req, res) => {
       'id',
       'product_name',
       'price',
-      'stock',
-      'created_at'
+      'stock'
     ],
     include: [
       {
