@@ -44,8 +44,7 @@ router.get('/:id', (req, res) => {
       'id',
       'product_name',
       'price',
-      'stock',
-      'created_at'
+      'stock'
     ],
     include: [
       {
